@@ -88,30 +88,15 @@ $mb_s: 321px;
       line-height: 2rem;
     }
   }
+  .bottombar{
+    bottom: 0!important;
+  }
   .list__group{
-    @include mb-width_l(){
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-    }
     a.btn_header{
       position: relative;
       right: initial;
-      margin-top: 4px!important;
-      @include pad-width(){
-        margin-top: 0px!important;
-      }
       @include mb-width_l(){
-        bottom: inherit;
-        top: inherit;
-        transform: inherit;
         margin-top: 0px!important;
-        width: 100%;
-        height: 50px;
-        line-height: 1.6rem;
-        font-size: 16px;
-        z-index: 99;
       }
     }
   }
